@@ -5,7 +5,7 @@ LABEL author="Hector Alexander"
 ARG buildVersion
 
 ENV build=$buildVersion
-ENV NODE_ENV=DEV
+# ENV NODE_ENV=DEV
 
 ENV PORT=3000
 
