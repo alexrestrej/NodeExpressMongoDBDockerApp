@@ -10,6 +10,7 @@ services:
       dockerfile: node.dockerfile
       args:
         PACKAGES: "nano wget curl"
+        buildVersion: 1
     ports:
       - "3000:3000"
     networks:
